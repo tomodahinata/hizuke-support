@@ -38,8 +38,8 @@
 <li>Usage statistics: the app contains a usage-statistics function (PostHog, United States) but it is not enabled in version 1.0. A version that enables it will send only a fixed set of events (codes, counts and yes/no values) and only from people who agreed.
 <li>Crash reports: the kind of crash and where it happened (function names), app version, iOS version, device model, memory and thermal state and a random per-install ID. Sent to Sentry (United States).</li>
 </ul>
-<p>We never send, whether or not you agree: photos and thumbnails, what is in them, file names and paths, location, photo-library identifiers, free-space values, contact details such as your email, or screen recordings.</p>
-<p>As part of how the internet works, your device's IP address reaches the recipient; we configure the services not to store or use IP addresses or location. Nothing is used for advertising or for tracking you across other apps and sites.</p>
+<p>We never send, whether or not you agree: photos and thumbnails, what is in them, file names and paths, your location, photo-library identifiers, free-space values, contact details such as your email, or screen recordings.</p>
+<p>As part of how the internet works, your device's IP address reaches the recipient. The app does not read or send your location. However, the crash-report recipient (Sentry) may infer and store an approximate region (country, region, city) from the IP address on receipt; it is not linked to who you are, and we do not use it. Nothing is used for advertising or for tracking you across other apps and sites.</p>
 
 <h2 id="purpose">4. Purpose and retention</h2>
 <p>Crash reports are used only to investigate bugs and are kept at most 90 days at Sentry (a version that enables usage statistics keeps them at most 1 year at PostHog). We do not sell the data or provide it for advertising.</p>
